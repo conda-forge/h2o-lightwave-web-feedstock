@@ -1,5 +1,5 @@
 {% set name = "h2o-lightwave-web" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/h2oai/wave/archive/v{{ version }}.tar.gz
-  sha256: c7bf9bb5220c39fd4b6f78144ac8394921d59ae94f6921d2f4285f83757c18a5
+  sha256: 8e8a2bd15ba5623155ee769d1cb5280a96c1d3cd09a176ab8ef5ab65bf1ca49d
 
 build:
   noarch: python
